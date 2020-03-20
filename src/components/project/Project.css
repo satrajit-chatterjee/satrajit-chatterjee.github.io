@@ -1,0 +1,54 @@
+.project-container {
+  border-width: 2px;
+  border-style: solid;
+  padding: 0.5rem;
+  border-color: var(--color-primary-dark);
+  margin: 1rem 0;
+  transition: border-style 0.1s ease-in-out;
+}
+
+.project-container:hover {
+  border-style: dashed;
+}
+
+.project-title {
+  margin: 0;
+  color: var(--color-primary-dark);
+
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.project-subtitle {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: lighter;
+  color: var(--color-primary);
+}
+
+.project-techstack {
+  margin: 0.2rem 0;
+}
+
+.project-duration {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: normal;
+  color: var(--color-primary);
+}
+
+.project-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+
+.project-header > a {
+  margin-left: 0.5rem;
+  transition: 0.15s ease-in-out;
+}
+
+.project-header > a:hover {
+  transform: scale(1.2);
+}

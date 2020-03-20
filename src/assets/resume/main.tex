@@ -1,0 +1,211 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Large \scshape Satrajit Chatterjee} \\ 5120 5th Avenue, Pittsburgh, PA \\ \vspace{1pt}
+    \small +1(925)744-9885 $|$ \href{mailto:satrajitdchatterjee@gmail.com}{\underline{satrajitdchatterjee@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/satrajit-chatterjee-3842b6134/}{\underline{linkedin.com/in/satrajit}} $|$
+    \href{https://github.com/satrajit-chatterjee}{\underline{github.com/satrajit-chatterjee}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {National Institute of Technology, Tiruchirappalli}{Tiruchirappalli, India}
+      {Bachelor of Technology in Computer Science \& Engineering}{July. 2017 -- June 2021}
+    \resumeSubheading
+      {Relevant Coursework}{}
+      {Data Structures \& Algorithms, Combinatorics \& Graph Theory, Probability Theory, Data Science, Compiler Design}{}
+  \resumeSubHeadingListEnd
+  
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C/C++, Java, Kotlin, Dart, JavaScript, SQL} \\
+     \textbf{Frameworks/Tools}{: ROS, PyTorch, TensorFlow, Torch, PX4, ArduPilot, Unreal Engine, DLib, OpenCV, SpaCy, NLTK, Flutter, Material-UI, Git, Docker, Google Firebase, Google Cloud Platform, Android Studio, Unix}\\
+    %  \textbf{Developer Tools}{: } \\
+    }}
+ \end{itemize}
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+  
+      \resumeSubheading
+      {The AirLab - Carnegie Mellon University}{June 2021 -- Present}
+      {Research Associate I $|$ Advisor -- Dr. Sebastian Scherer}{Remote}
+      \resumeItemListStart
+        \resumeItem{Working on Autonomous Mission Execution for Teams of Reconnaissance UAVs for the Office of Naval Research}
+        \resumeItem{Researching human-in-the-loop image segmentation techniques alongside contributing to the development of autonomous informative path planning algorithms}
+        \resumeItem{\textbf{Technologies} -- Python, C++, ROS, TensorFlow, PX4, Unreal Engine, Computer Vision}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Jet Propulsion Laboratory, NASA -- Group 347J Perception Systems}{Oct. 2020 -- April 2021}
+      {Research Intern $|$ Advisors -- Shreyansh Daftry \& Dr. Masahiro Ono}{Remote}
+      \resumeItemListStart
+        \resumeItem{Researched context-aware adaptive algorithm selection using deep learning for motion planning}
+        \resumeItem{Responsible for ideating, designing and implementing experiments from scratch}
+        \resumeItem{Engineered deep learning pipeline for further research and development}
+        \resumeItem{Joined the project at its inception and have been contributing critical design ideas and directions for exploration}
+        \resumeItem{\textbf{Technologies} -- Python, C++, TensorFlow, Docker, Computer Vision, Meta Learning, Reinforcement Learning}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Language Technologies Institute, Carnegie Mellon University}{May 2019 -- Aug. 2020}
+      {Research Intern $|$ Advisors -- Amir Zadeh, Prof. Louis-Philippe Morency}{Pittsburgh, PA}
+      \resumeItemListStart
+        \resumeItem{Researched CNN algorithms using asymmetric correlations for Facial Action Unit Detection}
+        \resumeItem{Designed custom loss function using Jaccard coefficient correlations to train a novel neural network to improve Action Unit detection. Designed and implemented all architectures and experiments during the course of my involvement with the project}
+        \resumeItem{\textbf{Technologies} -- Python, C++, PyTorch, LibTorch, MKLDNN, HDF5, DLib, OpenCV, Computer Vision, Knowledge Distillation, Neural Network Optimization}
+    \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {Indian Institute of Technology, Kharagpur}{Dec. 2018}
+    %   {Research Intern $|$ Advisor -- Prof. D.K. Pratihar}{Kharagpur, India}
+    %   \resumeItemListStart
+    %     \resumeItem{Developed a deep Q-learning model to perform adaptive PID optimization for DC motors}
+    %     \resumeItem{Achieved an average convergence time of 15 minutes, a 78\% improvement over previous approaches}
+    %     \resumeItem{\textbf{Technologies} -- Python, PyTorch, C++, ROS}
+    %   \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\href{https://play.google.com/store/apps/details?id=com.errandcompany.errand}{The Errand Company}} $|$ \emph{Java, JavaScript, Google Firebase, Android Studio}}{June 2020}
+          \resumeItemListStart
+            \resumeItem{Developed and published an ecommerce mobile application on Play Store that allows home deliveries, domestic services and serves as an aggregator platform for local businesses}
+            \resumeItem{Developed in the span of 1 one month after my parents were forced to shutdown their business during the height of Covid-19 lockdowns in India, the app was meant to support affected local businesses by allowing them to be listed on the platform while also reaching customers who were equally affected, thus helping their revenue as well as serving the community’s supply needs}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{Myna} $|$ \emph{Python, SpaCy, NLTK}}{June 2019}
+          \resumeItemListStart
+            \resumeItem{Developed a domain agnostic chatbot using a state transition rule-engine that can converse on any knowledge base}
+            \resumeItem{Able to take restaurant orders on multiple different menus without any down-time in between}
+          \resumeItemListEnd
+          
+          \resumeProjectHeading
+          {\textbf{Friends} $|$ \emph{Java, MongoDB, Android Studio, Postman}}{Sept. 2018}
+          \resumeItemListStart
+            \resumeItem{Developed a social media, companionship and lifestyle app for senior citizens that allows Senior Citizens to hire college students for part-time assistance services. The app also helps senior citizens find friends based on mutual interests, organize social event, etc. Won 10th place out of 150 teams at SRM Hackathon'18 - one of India's largest national hackathons}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
