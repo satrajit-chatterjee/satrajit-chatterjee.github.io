@@ -12,6 +12,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Check commit
-        uses: adityaa30/check-commit@master
+      # - name: Check commit
+      #   uses: adityaa30/check-commit@master
 
