@@ -6,12 +6,12 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: IMG_2013.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # address: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Your City, State 12345</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -19,8 +19,16 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi there! 👋
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a first-year Master of Science in Engineering (MSE) in robotics at the University of Pennsylvania. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My motivation towards a career in robotics began with a philosophical question — how do
+we emulate consciousness? The abilities that allow us humans to generalize skills and adapt to un-
+certainty have captivated and eluded generations of engineers, scientists and thinkers. I want to help
+realize a significant breakthrough that would enable autonomous systems to convincingly emulate human behavior and introduce
+a paradigm shift in society. 
+
+Previously I have engaged in research at the [Jet Propulsion Laboratory](https://www.jpl.nasa.gov) in NASA and at the [AirLab](https://theairlab.org) in Carnegie Mellon University. Our work on tree-based informative path planning ([TIGRIS](https://arxiv.org/abs/2203.12830)) was published in IROS'22. At AWS I worked on [DeepRacer](https://aws.amazon.com/deepracer/) - an autonomous 1/18th scale race car designed to test RL models by racing on a physical race track. 
+
+I am also an adventure junkie who loves exploring places off-the-beaten path. I am a PADI Open Water certified diver 🐠, amateur rock-climber 🧗‍♂️ and working on my Private Pilot's License (PPL) 🛩️. 
